@@ -1,0 +1,40 @@
+.Profile {
+  width: calc(100% /4);
+  height: 96vh;
+  display: flex;
+  border-radius: 20px 0 0 20px;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+/* animation: left 2s ease-out;
+animation-fill-mode: forwards;
+*/
+
+
+ .Profile::after {
+  border-radius: 20px 0 0 20px;
+  background-image: url('../../assets/profile2.png');
+  background-size: cover;
+  content: "";
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/*
+@keyframes left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-150%);
+  }
+}
+*/
