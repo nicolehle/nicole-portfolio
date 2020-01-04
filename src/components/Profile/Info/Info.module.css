@@ -6,6 +6,21 @@
   background: rgba(255, 255, 255, 0.5);
 }
 
-.Info p {
-  margin: 10px 0 10px 0;
+.Info h1 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.Info a {
+  background: #fff;
+  margin: 10px 5px 0 5px;
+  padding: 8px 10px 6px 10px;
+  border-radius: 50%;
+  color: black;
+}
+
+.Info a:hover,
+.Info a:active {
+  background: orange;
 }

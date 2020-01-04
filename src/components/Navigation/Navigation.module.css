@@ -1,5 +1,5 @@
 .Navigation {
-  width: 75vw;
+  width: 80vw;
 }
 
 .Navigation ul {
@@ -8,6 +8,7 @@
   align-items: center;
   list-style: none;
   background: #f5f5f5;
+  border-radius: 0px 20px 0 0;
 }
 
 .Navigation li {

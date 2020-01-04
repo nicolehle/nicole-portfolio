@@ -1,0 +1,17 @@
+.InfoItems {
+  width: 90%;
+  margin: 10% 0 0 5%;
+  border-top: 2px solid whitesmoke;
+}
+
+.InfoItems div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InfoItems a {
+  margin-top: 10%;
+  border-radius: 0;
+  text-decoration: none;
+}
