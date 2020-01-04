@@ -1,0 +1,116 @@
+.Skills {
+  height: 45vh;
+  padding: 20px 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.Intro {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  flex-direction: column;
+  border-right: 3px solid whitesmoke;
+}
+
+.Intro h1 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  float: left;
+}
+
+.Icons {
+  font-size: 2rem;
+}
+.Arrange {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.Arrange h2 {
+ font-weight: 500;
+}
+
+.Battery {
+	position: relative;
+	display: block;
+	margin: 10px 100px 40px 180px;
+	background: #e7edf6;
+	height: 15px;
+  float: left;
+  border-radius: 20px;
+}
+
+.Battery:before {
+	content: "";
+	display: block;
+	background: transparent;
+  border: 2px solid whitesmoke;
+	margin: -7px;
+	width: 400px;
+	height: 25px;
+	border-radius: 20px;
+}
+
+
+
+.Char1 {
+  animation: char1 5s;
+  animation-fill-mode: forwards;
+}
+
+.Char2 {
+  animation: char2 4.5s;
+  animation-fill-mode: forwards;
+}
+
+.Char3 {
+  animation: char3 3.5s;
+  animation-fill-mode: forwards;
+}
+
+.Char4 {
+  animation: char4 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes char1 {
+ 0% {
+   width: 0;
+ }
+ 100% {
+   width: 380px;
+ }
+}
+
+
+@keyframes char2 {
+ 0% {
+   width: 0;
+ }
+ 100% {
+   width: 350px;
+ }
+}
+
+@keyframes char3 {
+ 0% {
+   width: 0;
+ }
+ 100% {
+   width: 250px;
+ }
+}
+
+@keyframes char4 {
+ 0% {
+   width: 0;
+ }
+ 100% {
+   width: 230px;
+ }
+}
