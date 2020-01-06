@@ -7,11 +7,11 @@ import Skills from './Skills/Skills';
 const contentsItems = (props) => {
   return (
     <Aux>
-      <div className={classes.Introduction}>
-        <h1>Nicole Heeyeon Lee</h1>
-        <p>adfjsldkfjaldkjflaskdjflaskdjflaskdfjalksdjflaskdjflaskdjf</p>
-      </div>
-      <Skills />
+        <div className={classes.Introduction}>
+          <h1>Nicole Heeyeon Lee</h1>
+          <p>adfjsldkfjaldkjflaskdjflaskdjflaskdfjalksdjflaskdjflaskdjf</p>
+        </div>
+        <Skills />
     </Aux>
   );
 };

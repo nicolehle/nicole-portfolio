@@ -22,7 +22,8 @@
 }
 
 .Navigation a:hover,
-.Navigation a:active {
+.Navigation a:active,
+.Navigation a.active {
   color: orange;
   border-bottom: 3px solid #afc3e1;
   font-weight: bold;
