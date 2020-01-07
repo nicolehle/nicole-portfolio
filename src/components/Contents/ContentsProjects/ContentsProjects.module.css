@@ -25,4 +25,45 @@
   font-size: .9rem;
   font-weight: bold;
   color: grey;
+  cursor: pointer;
+}
+
+.Nav li:active,
+.Nav li:hover,
+.Nav li.active {
+  color: orange;
+}
+
+.ContentProjectItem {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: 1;
+}
+
+.ContentProjectItem div {
+  display: flex;
+  width: 40%;
+  height: 200px;
+  margin: 15px;
+}
+
+.Box {
+  background: whitesmoke;
+}
+
+.ContentProjectItem img {
+  width: 100%;
+  height: 180px;
+}
+
+.ContentProjectItem a {
+  background-color: yellow;
+  width: 90%;
+  margin: 10px 0 10px 10px;
+  height: 180px;
+}
+
+.ContentProjectItem p {
+  margin: 15px 20px;
 }

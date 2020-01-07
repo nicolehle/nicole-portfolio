@@ -16,7 +16,6 @@ const navigation = () => (
       <Switch>
         <Route path="/" exact component={ContentsItems} />
         <Route path="/projects" exact component={ContentsProjects} />
-
       </Switch>
     </div>
 );
