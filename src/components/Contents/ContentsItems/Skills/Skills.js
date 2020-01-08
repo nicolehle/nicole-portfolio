@@ -15,15 +15,14 @@ const skills = () => {
                   <FaHtml5 style={{color: "#eb4034"}}/>
                   <FaCss3Alt style={{color: "#4287f5"}}/>
                   <h3>HTML5 & CSS3</h3>
-                  <p>html and css with frameworks and aflakdjfalkdjlskdjalskdjalskdjalskdjalsksjj alskdjalskdjalskd</p>
+                  <p>Responsive App, flexbox and grid layout, css attribute selector</p>
                 </div>
 
                 <div className={classes.Box}>
                   <FaJs  style={{color: "#ccd12a"}}/>
                   <FaReact style={{color: "#2adeeb"}}/>
-                  <FaNodeJs style={{color: "#07ab07"}}/>
-                  <h3>JavaScript & React.js & Node.js</h3>
-                  <p>html and css with frameworks and aflakdjfalkdjlskdjalskdjalskdjalskdjalsksjj alskdjalskdjalskd</p>
+                  <h3>JavaScript & React</h3>
+                  <p>Asynchronous, functional, object oriented programming, efficient data structure, stateless and stateful components, component based code, ajax calling</p>
                 </div>
             </div>
 
@@ -31,15 +30,16 @@ const skills = () => {
                 <div className={classes.Box}>
                   <FaNpm style={{color: "#eb4034"}}/>
                   <FaGulp style={{color: "#eb4034"}}/>
-                  <h3>NPM & Gulp</h3>
-                  <p>html and css with frameworks and aflakdjfalkdjlskdjalskdjalskdjalskdjalsksjj alskdjalskdjalskd</p>
+                  <FaNodeJs style={{color: "#07ab07"}}/>
+                  <h3>NPM & Gulp & Node</h3>
+                  <p>Using frontend library, Managing memory efficiently</p>
                 </div>
 
                 <div className={classes.Box}>
                   <FaSass style={{color: "#e675da"}}/>
                   <FaBootstrap style={{color: "#734985"}}/>
                   <h3>Sass & Bootstrap</h3>
-                  <p>html and css with frameworks and aflakdjfalkdjlskdjalskdjalskdjalskdjalsksjj alskdjalskdjalskd</p>
+                  <p>BEM method, clean and structured styling and layout</p>
                 </div>
             </div>
           </div>

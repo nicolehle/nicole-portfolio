@@ -1,6 +1,6 @@
 .Projects {
   height: 85vh;
-  padding: 20px 50px;
+  padding: 20px 5%;
 }
 
 .Projects h1 {
@@ -41,16 +41,31 @@
   flex-basis: 1;
 }
 
-.ContentProjectItem div {
+
+.Box {
+  background: whitesmoke;
   display: flex;
   width: 40%;
   height: 200px;
   margin: 15px;
 }
 
-.Box {
-  background: whitesmoke;
+.Flex {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 60%;
 }
+
+.Flex h2 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.Flex p {
+  font-size: .95rem;
+}
+
 
 .ContentProjectItem img {
   width: 100%;
@@ -58,12 +73,11 @@
 }
 
 .ContentProjectItem a {
-  background-color: yellow;
-  width: 90%;
+  width: 40%;
   margin: 10px 0 10px 10px;
   height: 180px;
 }
 
 .ContentProjectItem p {
-  margin: 15px 20px;
+
 }

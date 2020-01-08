@@ -1,0 +1,47 @@
+.ContentsContact {
+  padding: 50px 5%;
+}
+
+.ContentsContact img {
+  width: 450px;
+}
+
+.ContentsContact h1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+
+}
+
+.ContentsContact div {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 50%;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+}
+
+.Row {
+  display: flex;
+}
+
+.Flex a {
+  margin: 0 auto;
+  height: 40px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: whitesmoke;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 2px solid #afc3e1;
+}
+
+.Flex a:active,
+.Flex a:hover {
+  border-bottom: 2px solid #afc3e1;
+}

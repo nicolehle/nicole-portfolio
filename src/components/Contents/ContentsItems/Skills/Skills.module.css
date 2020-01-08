@@ -1,18 +1,20 @@
 .Skills {
   height: 45vh;
-  padding: 20px 50px;
+  padding: 20px 5%;
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
 .Skills h1 {
+  padding: 10px 0 0 0;
   font-size: 1.4rem;
   font-weight: 500;
   text-align: left;
 }
 
 .Intro {
-  margin-left: -50px;
+  margin-left: 0px;
+  padding-right: 5%;
   grid-column-start: 1;
   grid-column-end: 2;
   border-right: 3px solid whitesmoke;
@@ -25,10 +27,11 @@
   align-content: center;
   flex-wrap: wrap;
   width: 100%;
+  text-align: left;
 }
 
 .Box {
-  margin-top: 15px;
+  margin: 10px;
   width: 45%;
   height: 50%;
 }
@@ -44,7 +47,7 @@
 }
 
 .Icons p {
-  font-size: 1rem;
+  font-size: .95rem;
   margin-bottom: 15px;
 }
 
@@ -58,13 +61,16 @@
 }
 
 .Arrange h2 {
- font-weight: 500;
+  font-size: .9rem;
+  font-weight: 500;
+  text-align: left;
+  margin: 0 0 0 25%;
 }
 
 .Battery {
+  margin: 10px 0 35px 25%;
 	position: relative;
 	display: block;
-	margin: 10px 100px 40px 180px;
 	background: #c2d1e8;
 	height: 15px;
   float: left;
@@ -77,7 +83,7 @@
 	background: transparent;
   border: 2px solid whitesmoke;
 	margin: -7px;
-	width: 400px;
+	width: 350px;
 	height: 25px;
 	border-radius: 20px;
 }
@@ -109,7 +115,7 @@
    width: 0;
  }
  100% {
-   width: 380px;
+   width: 340px;
  }
 }
 
@@ -119,7 +125,7 @@
    width: 0;
  }
  100% {
-   width: 350px;
+   width: 300px;
  }
 }
 
@@ -128,7 +134,7 @@
    width: 0;
  }
  100% {
-   width: 250px;
+   width: 240px;
  }
 }
 
@@ -137,6 +143,6 @@
    width: 0;
  }
  100% {
-   width: 230px;
+   width: 200px;
  }
 }
