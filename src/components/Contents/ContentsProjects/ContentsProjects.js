@@ -15,7 +15,7 @@ const pictureDiv = [
     url: Budget,
     type: 'js',
     link:'https://nicolehle.github.io/budget-app/',
-    description: 'A budget app. JavaScript ES5 is main language. Focusing on  two parts. 1. resusable function structure with one task for one function. 2. Dom manipulation.'
+    description: 'A budget app mainly using JavaScript ES5. Primarily practice for reusable function structures with one task for one function and Dom manipulation.'
   },
   {
     id: 'Travel Site',
@@ -29,14 +29,14 @@ const pictureDiv = [
     url: JsGame,
     type: 'js',
     link:'https://nicolehle.github.io/simple-js-canvas-game/',
-    description: 'A simple JavaScirpt based game. Using html as canvas, a hero moves x and y direction by keyboard'
+    description: 'A simple JavaScript based game. Using html as a canvas, you can move in x/y directions via keyboard.'
   },
   {
     id: 'PigGame',
     url: PigGame,
     type: 'js',
     link:'https://nicolehle.github.io/pig-game/',
-    description: 'A dice game, winning score 100. JavaScirpt is main language. Understanding game flow and build architecture before code. Dom manipulating.'
+    description: 'Dice game where you aim to score 100 first. Mainly used JavaScript and was intended to practice game flow and build architecture before code. Also uses Dom manipulation.'
   },
   {
     id: 'Flex Pannel',
@@ -50,7 +50,7 @@ const pictureDiv = [
     url: Animation,
     type: 'html',
     link:'https://codepen.io/nicolehle/full/xxxzWVB',
-    description: 'A css animation with click event. Using Sass to make clean and structured style sheet.'
+    description: 'A css animation with click event. Using Sass to make a clean and structured style sheet.'
   }
 ]
 

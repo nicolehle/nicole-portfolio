@@ -24,3 +24,52 @@
 .Info a:active {
   background: orange;
 }
+
+@media (max-width: 430px) {
+  .Info {
+    margin-top: 35%;
+    width: 100%;
+    height: 100vh;
+    background: none;
+  }
+
+  .Info h1 {
+    margin-bottom: 40px;
+  }
+
+  .Info a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .Info {
+    margin-top: 0;
+    width: 100%;
+    height: 50%;
+    background: 0;
+  }
+
+  .Flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Info h1 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .Info a {
+    font-size: 1.2rem;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    margin: 15px 0;
+    padding: 8px 4px 0 5px;
+    border-radius: 50%;
+    color: black;
+  }
+}

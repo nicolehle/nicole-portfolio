@@ -29,3 +29,9 @@
   border-bottom: 3px solid #afc3e1;
   font-weight: bold;
 }
+
+@media (max-width: 1199px){
+  .Navigation ul {
+    border-radius: 0;
+  }
+}

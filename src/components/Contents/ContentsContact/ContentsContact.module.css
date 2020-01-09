@@ -14,7 +14,7 @@
 
 .ContentsContact div {
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 25px;
   width: 50%;
 }
 
@@ -30,7 +30,7 @@
 .Flex a {
   margin: 0 auto;
   height: 40px;
-  width: 50%;
+  width: 120px;
   justify-content: center;
   align-items: center;
   display: flex;

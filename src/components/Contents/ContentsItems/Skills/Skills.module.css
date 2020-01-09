@@ -14,10 +14,10 @@
 
 .Intro {
   margin-left: 0px;
-  padding-right: 5%;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  border-right: 3px solid whitesmoke;
+  padding-left: 5%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  border-left: 3px solid whitesmoke;
 }
 
 .row {
@@ -52,12 +52,12 @@
 }
 
 .Arrange {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .Arrange h2 {
@@ -88,7 +88,60 @@
 	border-radius: 20px;
 }
 
+@media (max-width: 1199px){
+  .Skills {
+    height: 0vh;
+    display: block;
+  }
 
+  .Skills h1 {
+    padding: 0;
+    font-size: 1.3rem;
+  }
+
+  .Intro {
+    margin: 0 auto;
+    height: 30vh;
+    padding: 20px 0;
+    border-left: none;
+    border-top: 3px solid whitesmoke
+  }
+
+  .Icons {
+    font-size: 1.6rem;
+  }
+
+  .Icons h3 {
+    font-size: .9rem;
+    margin-bottom: 10px;
+  }
+
+  .Arrange {
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  .Arrange h2 {
+    font-size: .8rem;
+    margin: 20px 0 0 0;
+  }
+
+  .Battery {
+    margin: 10px 0 0 0;
+  	height: 12px;
+  }
+
+  .Battery:before {
+  	margin: -6px;
+  	height: 20px;
+  }
+
+}
 
 .Char1 {
   animation: char1 5s;

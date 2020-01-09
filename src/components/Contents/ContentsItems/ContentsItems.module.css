@@ -20,7 +20,7 @@
 
 .Introduction p {
   width: 40%;
-  padding: 10px 50px;
+  padding: 10px 50px 10px 0;
   text-align: center;
 }
 
@@ -34,4 +34,24 @@
   font-size: 1.4rem;
   font-weight: 500;
   margin-bottom: 20px;
+}
+
+@media (max-width: 1199px){
+  .Name {
+    font-size: 1.3rem;
+  }
+
+  .Introduction {
+    height: 18vh;
+    padding: 0px;
+  }
+
+  .Introduction img {
+    height: 140px;
+  }
+
+  .Introduction div {
+    margin: 0 auto;
+    width: 100%;
+  }
 }

@@ -26,3 +26,10 @@ html {
   margin: 15px;
   background: #e7edf6;
 }
+
+@media (max-width: 1199px) {
+  html {
+    margin: 0px;
+    background: none;
+  }
+}
