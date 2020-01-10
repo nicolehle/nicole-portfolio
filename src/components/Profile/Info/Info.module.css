@@ -73,3 +73,20 @@
     color: black;
   }
 }
+
+@media (min-width: 1200px) and (max-width: 1365px) {
+  .Flex {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Info {
+    height: 240px;
+
+  }
+}

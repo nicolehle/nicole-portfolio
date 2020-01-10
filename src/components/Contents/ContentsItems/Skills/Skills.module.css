@@ -1,5 +1,5 @@
 .Skills {
-  height: 45vh;
+  height: 90%;
   padding: 20px 5%;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -90,8 +90,9 @@
 
 @media (max-width: 1199px){
   .Skills {
-    height: 0vh;
+    height: 100%;
     display: block;
+    margin: 0 auto;
   }
 
   .Skills h1 {
@@ -100,11 +101,10 @@
   }
 
   .Intro {
-    margin: 0 auto;
-    height: 30vh;
+    width: 100%;
     padding: 20px 0;
     border-left: none;
-    border-top: 3px solid whitesmoke
+    border-top: 3px solid whitesmoke;
   }
 
   .Icons {
@@ -117,14 +117,9 @@
   }
 
   .Arrange {
+    margin-left: 18%;
     margin-bottom: 40px;
-    width: 100%;
-    background-color: yellow;
-    display: flex;
-    justify-content: center;
   }
-
-
 
   .Arrange h2 {
     font-size: .8rem;
@@ -133,7 +128,7 @@
 
   .Battery {
     margin: 10px 0 0 0;
-  	height: 12px;
+  	height: 10px;
   }
 
   .Battery:before {
@@ -141,6 +136,22 @@
   	height: 20px;
   }
 
+}
+
+@media (min-width: 850px) and (max-width: 1000px){
+  .Arrange {
+    margin-left: 24%;
+    margin-bottom: 30px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1199px){
+  .Arrange {
+    margin-left: 30%;
+    margin-bottom: 30px;
+    margin-bottom: 40px;
+  }
 }
 
 .Char1 {

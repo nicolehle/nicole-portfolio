@@ -1,6 +1,5 @@
 .Profile {
-  width: calc(100% /5);
-  height: 96vh;
+  width: 100%;
   display: flex;
   border-radius: 20px 0 0 20px;
   justify-content: center;
@@ -9,7 +8,6 @@
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 0;
 }
-
 
  .Profile::after {
   border-radius: 20px 0 0 20px;
@@ -27,11 +25,9 @@
 
 @media (max-width: 430px) {
   .Profile {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+    width: 20%;
+    height: 100%;
     border-radius: 0;
-    position: relative;
     background-color: #e7edf6;
     z-index: 0;
   }
@@ -47,25 +43,18 @@
 
 @media (max-width: 1199px) {
   .Profile {
-    flex-direction: column;
-    width: calc(100% /5);
-    height: 100vh;
-    overflow: visible;
-    display: flex;
+    width: 20%;
+    margin-right: 20vw;
+    height: 100%;
+    align-items: center;
+    position: fixed;
     border-radius: 0;
     background-color: #e7edf6;
-    z-index: 0;
   }
 
   .Profile::after {
    border-radius: none;
    background-image: none;
    opacity: 0;
-   top: 0;
-   left: 0;
-   bottom: 0;
-   right: 0;
-   position: absolute;
-   z-index: 0;
  }
 }

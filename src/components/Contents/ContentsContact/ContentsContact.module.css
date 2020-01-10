@@ -1,5 +1,6 @@
 .ContentsContact {
-  padding: 50px 5%;
+  width: 95%;
+  padding: 49px 0 50px 5%;
 }
 
 .ContentsContact img {
@@ -14,8 +15,8 @@
 
 .ContentsContact div {
   margin: 0 auto;
-  margin-top: 25px;
-  width: 50%;
+  margin-top: 40px;
+  width: 100%;
 }
 
 .Column {

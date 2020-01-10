@@ -1,6 +1,6 @@
 .Projects {
   height: 85vh;
-  padding: 20px 5%;
+  padding: 25px 0 26px 5%;
 }
 
 .Projects h1 {
@@ -78,6 +78,24 @@
   height: 180px;
 }
 
-.ContentProjectItem p {
 
+
+@media (max-width: 1199px){
+  .Flex p {
+    font-size: .9rem;
+  }
+
+  .Box {
+    display: flex;
+    width: 70%;
+    height: 200px;
+    margin: 15px;
+  }
+}
+
+@media (max-height: 900px) {
+  .Projects {
+    height: 100%;
+    padding: 25px 0 26px 5%;
+  }
 }

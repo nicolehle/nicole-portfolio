@@ -7,8 +7,8 @@
 }
 
 .Introduction {
-  height: 28vh;
-  padding: 20px 5%;
+  height: 28%;
+  padding: 30px 5%;
   background-color: whitesmoke;
 }
 
@@ -42,8 +42,7 @@
   }
 
   .Introduction {
-    height: 18vh;
-    padding: 0px;
+    height: 18%;
   }
 
   .Introduction img {

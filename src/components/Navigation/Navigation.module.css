@@ -1,5 +1,5 @@
 .Navigation {
-  width: 80vw;
+  width: 81vw;
 }
 
 .Navigation ul {
@@ -31,6 +31,10 @@
 }
 
 @media (max-width: 1199px){
+  .Navigation {
+    margin-left: 24%;
+  }
+
   .Navigation ul {
     border-radius: 0;
   }
