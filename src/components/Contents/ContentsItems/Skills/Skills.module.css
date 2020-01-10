@@ -1,6 +1,6 @@
 .Skills {
   height: 90%;
-  padding: 20px 5%;
+  padding: 50px 5%;
   display: grid;
   grid-template-columns: 50% 50%;
 }
@@ -91,6 +91,7 @@
 @media (max-width: 1199px){
   .Skills {
     height: 100%;
+    padding: 20px 5%;
     display: block;
     margin: 0 auto;
   }
