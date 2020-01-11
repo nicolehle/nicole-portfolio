@@ -1,6 +1,5 @@
 .Layout {
   display: flex;
-  overflow: visible;
   width: 100%;
   height: 100%;
 }
@@ -8,5 +7,10 @@
 @media (max-width: 430px) {
   .Layout {
     display: block;
+  }
+}
+
+@media (max-width: 1199px) {
+  .Layout {
   }
 }

@@ -53,4 +53,13 @@
     margin: 0 auto;
     width: 100%;
   }
+
+  .Container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .Container2 {
+    width: 125%;
+  }
 }
