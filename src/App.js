@@ -6,7 +6,7 @@ import Layout from './components/Layout/Layout';
 
 function App() {
   return (
-    <BrowserRouter baseName="/nicole-portfolio">
+    <BrowserRouter>
       <div className="App">
         <Layout />
       </div>
