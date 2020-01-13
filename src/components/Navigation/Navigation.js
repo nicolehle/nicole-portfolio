@@ -9,7 +9,8 @@ import ContentsContact from '../Contents/ContentsContact/ContentsContact';
 const navigation = () => (
     <div className={classes.Navigation}>
       <ul>
-        <li><NavLink to="/" exact>About Me</NavLink></li>
+        <li><NavLink to="/"
+            exact>About Me</NavLink></li>
         <li><NavLink to="/projects">Projects</NavLink></li>
         <li><NavLink to="/contact">Contact</NavLink></li>
       </ul>
