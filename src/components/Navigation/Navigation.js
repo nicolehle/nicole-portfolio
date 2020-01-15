@@ -9,14 +9,14 @@ import ContentsContact from '../Contents/ContentsContact/ContentsContact';
 const navigation = () => (
     <div className={classes.Navigation}>
       <ul>
-        <li><NavLink to="/"
+        <li><NavLink to="/nicole-portfolio"
             exact>About Me</NavLink></li>
         <li><NavLink to="/projects">Projects</NavLink></li>
         <li><NavLink to="/contact">Contact</NavLink></li>
       </ul>
 
       <Switch>
-        <Route path="/" exact component={ContentsItems} />
+        <Route path="/nicole-portfolio" exact component={ContentsItems} />
         <Route path="/projects" exact component={ContentsProjects} />
         <Route path="/contact" exact component={ContentsContact} />
       </Switch>

@@ -11,6 +11,7 @@
 }
 
 .InfoItems a {
+  font-size: 1rem;
   margin-top: 10%;
   border-radius: 0;
   text-decoration: none;
