@@ -49,3 +49,9 @@
     font-size: .95rem;
   }
 }
+
+@media (min-width: 1200px) and (max-width: 1365px) {
+  .InfoItems a {
+      font-size: 1rem;
+  }
+}

@@ -68,16 +68,36 @@
 
 
 .ContentProjectItem img {
-  width: 100%;
+  object-fit: cover;
+  width: 220px;
   height: 180px;
 }
 
 .ContentProjectItem a {
-  width: 40%;
+  width: 220px;
   margin: 10px 0 10px 10px;
   height: 180px;
 }
 
+
+
+@media (max-width: 1480px){
+  .ContentProjectItem img {
+    width: 200px;
+    height: 160px;
+  }
+
+  .ContentProjectItem a {
+    margin: 20px 0 10px 10px;
+  }
+
+}
+
+@media (max-width: 1400px){
+  .Box {
+    overflow: scroll;
+  }
+}
 
 
 @media (max-width: 1199px){
@@ -86,11 +106,19 @@
   }
 
   .Box {
-    display: flex;
     width: 70%;
-    height: 200px;
-    margin: 15px;
+    overflow: hidden;
   }
+
+  .ContentProjectItem img {
+    width: 220px;
+    height: 180px;
+  }
+
+  .ContentProjectItem a {
+    margin: 10px 0 10px 10px;
+  }
+
 }
 
 @media (max-height: 900px) {
