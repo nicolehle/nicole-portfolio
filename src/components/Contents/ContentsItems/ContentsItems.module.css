@@ -30,11 +30,6 @@
   float: right;
 }
 
-.Introduction h1 {
-  font-size: 1.4rem;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
 
 @media (max-width: 1650px){
   .Introduction img {
@@ -69,5 +64,25 @@
 
   .Container2 {
     width: 125%;
+  }
+}
+
+@media (max-width: 750px){
+  .Name {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 50px 5% 20px 5%;
+  }
+
+  .Introduction div {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0;
+  }
+
+  .Introduction p {
+    width: 80%;
+    padding: 20px 0;
+    text-align: center;
   }
 }

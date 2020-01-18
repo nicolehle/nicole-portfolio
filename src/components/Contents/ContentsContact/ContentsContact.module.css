@@ -46,3 +46,26 @@
 .Flex a:hover {
   border-bottom: 2px solid #afc3e1;
 }
+
+@media (max-width: 750px) {
+  .ContentsContact {
+    width: 100vw;
+    padding: 50px 0 50px 0;
+  }
+
+  .Flex a {
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ContentsContact img {
+    width: 300px;
+  }
+
+  .ContentsContact h1 {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+}

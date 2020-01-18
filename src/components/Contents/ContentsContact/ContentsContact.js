@@ -16,7 +16,7 @@ const contentsContact = () => (
         <a href="mailto:heeyeons1993@gmail.com"><FaTelegramPlane style={{marginRight: '5px'}}/><p>Email Me</p></a>
       </div>
       <div className={classes.Flex}>
-        <p><strong>Resume</strong></p>
+        <p><strong>Resume :</strong></p>
         <a href="https://resume.creddle.io/resume/78o0g8p2jp0" target='_blank' rel='noopener noreferrer'><FaFileAlt style={{marginRight: '5px'}}/><p>My Resume</p></a>
       </div>
       <p><strong>Location :</strong></p>

@@ -40,10 +40,9 @@
   }
 }
 
-.Name {
-  padding: 20px 5%;
-  text-align: left;
-  font-size: 1.4rem;
-  font-weight: 500;
-  background-color: whitesmoke
+@media (max-width: 750px){
+  .Navigation {
+    width: 100%;
+    margin-left: 0%;
+  }
 }

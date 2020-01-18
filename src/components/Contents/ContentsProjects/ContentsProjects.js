@@ -5,7 +5,7 @@ import Budget from '../../../assets/budget.PNG';
 import Travel from '../../../assets/travel-site.PNG';
 import JsGame from '../../../assets/js-game.PNG';
 import PigGame from '../../../assets/pig-game.PNG';
-import FlexPannel from '../../../assets/css-flex-pannel.PNG';
+import FlexPanel from '../../../assets/css-flex-pannel.PNG';
 import Animation from '../../../assets/sass-animated.PNG';
 
 
@@ -14,42 +14,42 @@ const pictureDiv = [
     id: 'Budget App',
     url: Budget,
     type: 'js',
-    link:'https://nicolehle.github.io/budget-app/',
+    link:'https://github.com/nicolehle/budget-app',
     description: 'A budget app mainly using JavaScript ES5. Primarily practice for reusable function structures with one task for one function and Dom manipulation.'
   },
   {
     id: 'Travel Site',
     url: Travel,
     type: 'jshtml',
-    link:'https://nicolehle.github.io/travel-site/',
+    link:'https://github.com/nicolehle/travel-site',
     description: 'A virtual travel agency website. Focused on making layout with css and responsive application. Gulp is used as development tool and scroll effects'
   },
   {
     id: 'JsGame',
     url: JsGame,
     type: 'js',
-    link:'https://nicolehle.github.io/simple-js-canvas-game/',
+    link:'https://github.com/nicolehle/simple-js-canvas-game',
     description: 'A simple JavaScript based game. Using html as a canvas, you can move in x/y directions via keyboard.'
   },
   {
     id: 'PigGame',
     url: PigGame,
     type: 'js',
-    link:'https://nicolehle.github.io/pig-game/',
+    link:'https://github.com/nicolehle/pig-game',
     description: 'Dice game where you aim to score 100 first. Mainly used JavaScript and was intended to practice game flow and build architecture before code. Also uses Dom manipulation.'
   },
   {
-    id: 'Flex Pannel',
-    url: FlexPannel,
+    id: 'Flex Panel',
+    url: FlexPanel,
     type: 'html',
-    link:'https://codepen.io/nicolehle/full/QWLoXLN',
+    link:'https://codepen.io/nicolehle/pen/QWLoXLN',
     description: 'Created a set of panels featuring flex with each reacting to clicks by enlarging, revealing text. Class names are consistent and inclusive for equivalent elements, applying  CSS style and script efficiently.'
   },
   {
     id: 'CSS Animation',
     url: Animation,
     type: 'html',
-    link:'https://codepen.io/nicolehle/full/xxxzWVB',
+    link:'https://codepen.io/nicolehle/pen/xxxzWVB',
     description: 'A css animation with click event. Using Sass to make a clean and structured style sheet.'
   }
 ]

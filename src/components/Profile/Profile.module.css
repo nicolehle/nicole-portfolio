@@ -23,23 +23,6 @@
   z-index: -1;
 }
 
-@media (max-width: 430px) {
-  .Profile {
-    width: 20%;
-    height: 100%;
-    border-radius: 0;
-    background-color: #e7edf6;
-    z-index: 0;
-  }
-
-  .Profile::after {
-   border-radius: none;
-   background-image: none;
-   opacity: 1;
-   position: relative;
-   z-index: 0;
- }
-}
 
 @media (max-width: 1199px) {
   .Profile {
@@ -57,4 +40,12 @@
    background-image: none;
    opacity: 0;
  }
+}
+
+@media (max-width: 750px) {
+  .Profile {
+    display: none;
+    margin-right: -20vw;
+    position: relative;
+  }
 }
